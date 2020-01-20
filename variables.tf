@@ -82,3 +82,8 @@ variable "artifact_filename" {
   description = "Artifact filename"
   default     = "lambda.zip"
 }
+
+variable "rule_set_name" {
+  type        = string
+  description = "SES rule set name"
+}
